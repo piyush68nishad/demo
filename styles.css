@@ -66,15 +66,17 @@ body {
   color: var(--bg);
   display: flex;
   height: 32px;
+  line-height: 30px;
   text-decoration: none;
   padding: 0 0.75em;
   border-radius: 0.5rem;
 }
 .nav-list a:hover {
-  background: rgba(6, 182, 212, 0.06);
+  background: rgba(255, 255, 255, 0.08);
 }
 .nav-list a.active {
-  background: #e6f7f8;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 0.0625rem rgba(0, 0, 0, 0.2);
   font-weight: 600;
 }
 .cta {
